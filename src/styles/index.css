@@ -1,12 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-/* 
+.t-l-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.t-l {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-*/
+.t-l-holder {
+    width: 30px;
+    height: 200px;
+}
+
+.t-l-base {
+    width: 200px;
+    height: 400px;
+}
+
+.lights {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    margin: 10px;
+}
+
+.green {
+    background-color: green;
+}
+
+.glow {
+    box-shadow: 0 0 40px rgb(248, 239, 239);
+}
